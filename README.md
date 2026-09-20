@@ -1,21 +1,26 @@
 # decision-layer-bench
 
-A decision layer is a small typed model that answers a classification question
-directly — you hand it the options and it returns one, with a confidence — in
-place of an LLM call inside a pipeline. TypeSafe's Jev is the model that named
-the category; around ten open replicas now exist.
+**This benchmark tests Jev and the models built like it** — TypeSafe calls them
+System One models; around ten open replicas now exist. They are small typed
+models that answer a classification question directly: you hand one the options,
+it returns one of them plus a confidence, in place of an LLM call inside a
+pipeline.
 
-The pitch is threefold: nearly as accurate as the LLM you removed, far cheaper,
-and sure enough of itself that you can threshold on its confidence and escalate
-the rest to a bigger model. This benchmark takes that pitch apart into things
-that can be measured, and measures them on real decisions.
+It measures them against each other, and against the LLM calls they are meant to
+replace — the LLMs are reference rows here, not the subject.
+
+The pitch for the category is threefold: nearly as accurate as the LLM you
+removed, far cheaper, and sure enough of itself that you can threshold on its
+confidence and escalate the rest to a bigger model. This benchmark takes that
+pitch apart into things that can be measured, and measures them on real
+decisions.
 
 ## What it measures
 
 **Accuracy on a real label space.** Not a binary safety flag — thirty classes
-with overlapping meanings, supplied as names only. A model in this class cannot
-pick a taxonomy up from examples in context, so it has to arrive already knowing
-what the labels mean.
+with overlapping meanings, supplied as names only. No worked examples, which is
+also all the interface offers: a decision layer takes options and criteria, not
+demonstrations. The model has to arrive already knowing what the labels mean.
 
 **Cost per correct answer.** Not total spend. An arm that is cheap and wrong is
 not cheap, and the whole argument for the category is an efficiency argument, so
@@ -32,9 +37,9 @@ and error structure are what separate arms once accuracy saturates.
 
 ## Tasks
 
-| task | decision | n |
-|---|---|---|
-| [`cve_weakness_class`](tasks/cve_weakness_class) | which weakness class does this vulnerability report describe? | 1,500 |
+| task | the decision | options | n |
+|---|---|---|---|
+| [`cve_weakness_class`](tasks/cve_weakness_class) | a published vulnerability description → the weakness class behind it | 30 | 1,500 |
 
 One task today. The suite grows by adding decisions of a different shape, not by
 adding more of the same material.
