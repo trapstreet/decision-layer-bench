@@ -44,8 +44,16 @@ CWE-434: Unrestricted Upload of File with Dangerous Type
 
 ## Output
 
-Print one line, nothing else required:
+Print one line:
 
     ANSWER: CWE-79
 
 The identifier must be one of the 30 listed above. Any other text is ignored.
+
+Optionally add a second line saying how likely you think that answer is to be
+right, between 0 and 1:
+
+    CONFIDENCE: 0.85
+
+Confidence is recorded and reported, never scored. Leaving it out costs nothing;
+giving it lets the report say whether your certainty tracks your accuracy.
