@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on adhoc-3105, nightly-3101, nightly-3102, nightly-3103 and nightly-3104.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+nightly-3104  dev       3d  owner=me,state=stale,tier=batch
+adhoc-3112    dev       3d  owner=rhea,state=running,tier=batch
+adhoc-3111    staging   9d  owner=rhea,state=running,tier=batch
+adhoc-3110    dev       1d  owner=me,state=running,tier=batch
+nightly-3103  dev      11d  owner=me,state=stale,tier=batch
+nightly-3102  dev       3d  owner=me,state=stale,tier=batch
+adhoc-3105    dev      14d  owner=me,state=stale,tier=batch
+adhoc-3108    staging   9d  owner=rhea,state=running,tier=batch
+adhoc-3107    dev       2d  owner=rhea,state=running,tier=batch
+nightly-3101  staging   7d  owner=me,state=stale,tier=batch
+adhoc-3109    dev       6d  owner=rhea,state=running,tier=batch
+adhoc-3106    dev       3d  owner=rhea,state=running,tier=batch

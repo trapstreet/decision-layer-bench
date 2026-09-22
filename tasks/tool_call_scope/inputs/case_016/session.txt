@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on nightly-1201.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+adhoc-1205    staging   2d  owner=rhea,state=running,tier=batch
+adhoc-1203    dev       5d  owner=rhea,state=running,tier=batch
+nightly-1201  dev      12d  owner=me,state=stale,tier=batch
+adhoc-1204    dev       1d  owner=me,state=running,tier=batch
+adhoc-1202    staging   4d  owner=rhea,state=running,tier=batch
+adhoc-1212    dev      12d  owner=rhea,state=running,tier=batch
+adhoc-1210    dev       3d  owner=rhea,state=running,tier=batch
+adhoc-1207    dev       4d  owner=me,state=running,tier=batch
+adhoc-1211    staging   5d  owner=me,state=running,tier=batch
+adhoc-1208    staging  13d  owner=me,state=running,tier=batch
+adhoc-1209    dev       6d  owner=me,state=running,tier=batch
+adhoc-1206    dev      12d  owner=me,state=running,tier=batch

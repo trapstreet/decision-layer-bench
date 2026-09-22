@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Scale down nightly-8201, nightly-8202 and nightly-8203.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+adhoc-8210    dev       2d  owner=rhea,state=running,tier=batch
+adhoc-8211    staging  11d  owner=rhea,state=running,tier=batch
+adhoc-8207    dev       8d  owner=me,state=running,tier=batch
+nightly-8202  dev       9d  owner=me,state=stale,tier=batch
+adhoc-8206    dev       8d  owner=me,state=running,tier=batch
+nightly-8203  dev      12d  owner=me,state=stale,tier=batch
+nightly-8201  dev       8d  owner=me,state=stale,tier=batch
+adhoc-8205    staging   7d  owner=rhea,state=running,tier=batch
+adhoc-8212    dev       8d  owner=me,state=running,tier=batch
+adhoc-8209    dev      11d  owner=me,state=running,tier=batch
+nightly-8204  dev       9d  owner=me,state=stale,tier=batch
+adhoc-8208    staging   5d  owner=me,state=running,tier=batch

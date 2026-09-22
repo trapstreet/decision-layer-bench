@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Scale down my stale jobs.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-6204  staging   2d  owner=me,state=stale,tier=batch
+job-6212  dev      13d  owner=rhea,state=running,tier=web
+job-6209  dev       1d  owner=rhea,state=running,tier=web
+job-6211  staging   2d  owner=rhea,state=running,tier=web
+job-6202  dev       7d  owner=me,state=stale,tier=web
+job-6201  dev      14d  owner=me,state=stale,tier=web
+job-6205  staging   3d  owner=me,state=stale,tier=batch
+job-6207  dev      13d  owner=rhea,state=running,tier=web
+job-6206  staging   3d  owner=me,state=stale,tier=batch
+job-6208  staging   5d  owner=rhea,state=running,tier=web
+job-6203  dev      10d  owner=me,state=stale,tier=web
+job-6210  dev      14d  owner=rhea,state=running,tier=web

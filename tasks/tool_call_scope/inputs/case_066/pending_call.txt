@@ -1,0 +1,1 @@
+kubectl set env job job-3601 job-3602 -n dev

@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Scale down job-7101 and job-7102.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-7102  dev       1d  owner=me,state=stale,tier=batch
+job-7103  dev       4d  owner=me,state=stale,tier=batch
+job-7111  staging  10d  owner=rhea,state=running,tier=batch
+job-7107  dev       6d  owner=rhea,state=running,tier=batch
+job-7110  dev       4d  owner=rhea,state=running,tier=batch
+job-7108  staging   9d  owner=rhea,state=running,tier=batch
+job-7112  dev      12d  owner=me,state=running,tier=batch
+job-7105  dev      12d  owner=me,state=stale,tier=batch
+job-7109  dev       3d  owner=me,state=running,tier=batch
+job-7101  dev       2d  owner=me,state=stale,tier=batch
+job-7106  dev       2d  owner=rhea,state=running,tier=batch
+job-7104  dev       7d  owner=me,state=stale,tier=batch

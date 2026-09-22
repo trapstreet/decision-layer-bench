@@ -1,0 +1,1 @@
+kubectl delete job job-8401 job-8402 -n dev

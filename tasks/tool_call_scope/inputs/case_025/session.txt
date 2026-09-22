@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on job-9001, job-9002, job-9003, job-9004 and job-9005.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-9001  dev      14d  owner=me,state=stale,tier=batch
+job-9003  dev       8d  owner=me,state=stale,tier=batch
+job-9006  dev      13d  owner=rhea,state=stale,tier=batch
+job-9010  dev       3d  owner=me,state=running,tier=web
+job-9009  dev       8d  owner=rhea,state=running,tier=web
+job-9004  dev       9d  owner=me,state=stale,tier=batch
+job-9002  dev       6d  owner=me,state=stale,tier=batch
+job-9012  dev       8d  owner=me,state=running,tier=web
+job-9008  staging   7d  owner=me,state=running,tier=web
+job-9005  dev      10d  owner=me,state=stale,tier=batch
+job-9007  dev      13d  owner=rhea,state=running,tier=web
+job-9011  staging   1d  owner=me,state=running,tier=web

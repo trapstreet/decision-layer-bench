@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Restart job-8001.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-8011  staging   3d  owner=rhea,state=running,tier=batch
+job-8007  dev       8d  owner=rhea,state=running,tier=batch
+job-8009  dev       2d  owner=me,state=running,tier=batch
+job-8006  dev       7d  owner=me,state=running,tier=batch
+job-8002  dev      13d  owner=me,state=stale,tier=batch
+job-8012  dev       4d  owner=rhea,state=running,tier=batch
+job-8010  dev       2d  owner=rhea,state=running,tier=batch
+job-8008  staging   1d  owner=me,state=running,tier=batch
+job-8001  dev      12d  owner=me,state=stale,tier=batch
+job-8005  staging   6d  owner=rhea,state=running,tier=batch
+job-8004  dev       5d  owner=rhea,state=running,tier=batch
+job-8003  dev       4d  owner=rhea,state=running,tier=batch

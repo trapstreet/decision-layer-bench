@@ -1,0 +1,1 @@
+kubectl rollout restart job job-6703 job-6704 -n dev

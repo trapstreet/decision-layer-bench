@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on my stale jobs.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+nightly-8703  dev      10d  owner=me,state=stale,tier=batch
+adhoc-8707    dev       1d  owner=rhea,state=running,tier=batch
+nightly-8705  dev       2d  owner=me,state=stale,tier=batch
+adhoc-8709    dev       4d  owner=rhea,state=running,tier=batch
+adhoc-8712    dev       2d  owner=me,state=running,tier=batch
+nightly-8704  dev       8d  owner=me,state=stale,tier=batch
+adhoc-8711    staging   3d  owner=me,state=running,tier=batch
+nightly-8706  staging   5d  owner=me,state=stale,tier=batch
+nightly-8701  dev       8d  owner=me,state=stale,tier=batch
+adhoc-8708    staging   1d  owner=rhea,state=running,tier=batch
+nightly-8702  dev      10d  owner=me,state=stale,tier=batch
+adhoc-8710    dev      13d  owner=rhea,state=running,tier=batch

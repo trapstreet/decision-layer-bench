@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Restart the stale jobs I own.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-6703  dev       9d  owner=rhea,state=stale,tier=batch
+job-6702  dev       9d  owner=me,state=stale,tier=batch
+job-6704  dev       3d  owner=rhea,state=stale,tier=batch
+job-6707  dev      11d  owner=me,state=running,tier=batch
+job-6712  dev      10d  owner=rhea,state=running,tier=batch
+job-6705  staging  12d  owner=me,state=running,tier=batch
+job-6708  staging   7d  owner=me,state=running,tier=batch
+job-6709  dev       4d  owner=me,state=running,tier=batch
+job-6711  staging  11d  owner=me,state=running,tier=batch
+job-6701  dev       9d  owner=me,state=stale,tier=batch
+job-6710  dev       7d  owner=me,state=running,tier=batch
+job-6706  dev       5d  owner=rhea,state=running,tier=batch

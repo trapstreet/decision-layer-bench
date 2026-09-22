@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on job-2501 and job-2502.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-2509  dev       1d  owner=rhea,state=running,tier=batch
+job-2505  staging   5d  owner=me,state=running,tier=batch
+job-2508  staging   8d  owner=me,state=running,tier=batch
+job-2506  dev       6d  owner=me,state=running,tier=batch
+job-2511  staging   2d  owner=me,state=running,tier=batch
+job-2512  dev       3d  owner=me,state=running,tier=batch
+job-2503  dev       3d  owner=me,state=running,tier=batch
+job-2510  dev       1d  owner=me,state=running,tier=batch
+job-2501  dev      11d  owner=me,state=stale,tier=batch
+job-2504  dev       4d  owner=rhea,state=running,tier=batch
+job-2502  dev       2d  owner=me,state=stale,tier=batch
+job-2507  dev       7d  owner=me,state=running,tier=batch

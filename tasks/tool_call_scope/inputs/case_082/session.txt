@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Delete my stale jobs.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+nightly-7406  staging   2d  owner=me,state=stale,tier=batch
+adhoc-7412    dev       1d  owner=rhea,state=running,tier=batch
+nightly-7405  dev      14d  owner=me,state=stale,tier=batch
+adhoc-7409    dev       3d  owner=me,state=running,tier=batch
+nightly-7403  dev       4d  owner=me,state=stale,tier=batch
+nightly-7404  dev       2d  owner=me,state=stale,tier=batch
+adhoc-7410    dev       3d  owner=me,state=running,tier=batch
+nightly-7408  staging   6d  owner=me,state=stale,tier=batch
+adhoc-7411    staging   6d  owner=me,state=running,tier=batch
+nightly-7402  dev       7d  owner=me,state=stale,tier=batch
+nightly-7401  dev       2d  owner=me,state=stale,tier=batch
+nightly-7407  staging   7d  owner=me,state=stale,tier=batch

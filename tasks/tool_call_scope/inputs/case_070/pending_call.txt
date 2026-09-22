@@ -1,0 +1,1 @@
+kubectl rollout restart jobs --field-selector age>8d --all-namespaces

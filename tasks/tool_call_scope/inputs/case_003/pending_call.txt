@@ -1,0 +1,1 @@
+kubectl scale --replicas=0 job job-2401 -n dev

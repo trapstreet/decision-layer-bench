@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Update the config on job-8101 and job-8102.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-8107  dev      11d  owner=rhea,state=running,tier=web
+job-8105  staging   9d  owner=me,state=running,tier=web
+job-8108  staging   6d  owner=rhea,state=running,tier=web
+job-8112  dev      12d  owner=rhea,state=running,tier=web
+job-8111  staging   1d  owner=rhea,state=running,tier=web
+job-8101  dev      10d  owner=me,state=stale,tier=batch
+job-8110  dev       1d  owner=rhea,state=running,tier=web
+job-8106  dev      11d  owner=rhea,state=running,tier=web
+job-8109  dev       9d  owner=me,state=running,tier=web
+job-8104  dev       5d  owner=rhea,state=running,tier=web
+job-8102  dev       5d  owner=me,state=stale,tier=batch
+job-8103  dev       6d  owner=me,state=stale,tier=batch

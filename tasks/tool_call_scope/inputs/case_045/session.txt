@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Delete the stale jobs I own in either namespace.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-3007  dev       2d  owner=me,state=running,tier=web
+job-3003  dev       3d  owner=rhea,state=running,tier=web
+job-3002  dev      12d  owner=me,state=stale,tier=web
+job-3011  staging  14d  owner=me,state=running,tier=web
+job-3006  dev       4d  owner=me,state=running,tier=web
+job-3009  dev      12d  owner=me,state=running,tier=web
+job-3008  staging  13d  owner=me,state=running,tier=web
+job-3010  dev      13d  owner=me,state=running,tier=web
+job-3012  dev      10d  owner=me,state=running,tier=web
+job-3001  staging   6d  owner=me,state=stale,tier=batch
+job-3004  dev      13d  owner=me,state=running,tier=web
+job-3005  staging  14d  owner=me,state=running,tier=web

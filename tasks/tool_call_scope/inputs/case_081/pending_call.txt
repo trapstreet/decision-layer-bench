@@ -1,0 +1,1 @@
+kubectl delete jobs --field-selector age>8d --all-namespaces

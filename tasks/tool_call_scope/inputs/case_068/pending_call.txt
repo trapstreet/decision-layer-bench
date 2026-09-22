@@ -1,0 +1,1 @@
+kubectl scale --replicas=0 jobs -l tier=batch --all-namespaces

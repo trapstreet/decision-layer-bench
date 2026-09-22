@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Scale down adhoc-6601, adhoc-6602 and adhoc-6603.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+adhoc-6601    dev      13d  owner=me,state=stale,tier=batch
+nightly-6605  dev       2d  owner=rhea,state=stale,tier=batch
+adhoc-6612    dev       6d  owner=rhea,state=running,tier=batch
+nightly-6604  dev       8d  owner=rhea,state=stale,tier=batch
+adhoc-6603    dev       1d  owner=me,state=stale,tier=batch
+adhoc-6609    dev       2d  owner=rhea,state=running,tier=batch
+nightly-6606  dev       1d  owner=rhea,state=stale,tier=batch
+adhoc-6608    staging   6d  owner=rhea,state=running,tier=batch
+adhoc-6611    staging  13d  owner=me,state=running,tier=batch
+adhoc-6607    dev      13d  owner=me,state=running,tier=batch
+adhoc-6610    dev       9d  owner=me,state=running,tier=batch
+adhoc-6602    dev       3d  owner=me,state=stale,tier=batch

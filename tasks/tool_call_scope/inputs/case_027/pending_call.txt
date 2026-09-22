@@ -1,0 +1,1 @@
+kubectl scale --replicas=0 job job-6004 job-6005 job-6006 -n dev

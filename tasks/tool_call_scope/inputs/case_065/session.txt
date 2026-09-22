@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Delete adhoc-5901.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME          NAMESPACE AGE  LABELS
+adhoc-5903    dev       1d  owner=me,state=running,tier=batch
+nightly-5902  dev       4d  owner=me,state=stale,tier=batch
+adhoc-5911    staging   6d  owner=me,state=running,tier=batch
+adhoc-5907    dev      11d  owner=rhea,state=running,tier=batch
+adhoc-5906    dev       9d  owner=me,state=running,tier=batch
+adhoc-5909    dev       9d  owner=rhea,state=running,tier=batch
+adhoc-5901    dev       5d  owner=me,state=stale,tier=batch
+adhoc-5912    dev      10d  owner=rhea,state=running,tier=batch
+adhoc-5905    staging   5d  owner=me,state=running,tier=batch
+adhoc-5908    staging  11d  owner=rhea,state=running,tier=batch
+adhoc-5910    dev       7d  owner=rhea,state=running,tier=batch
+adhoc-5904    dev      14d  owner=rhea,state=running,tier=batch

@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Delete job-6801.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-6811  staging   1d  owner=me,state=running,tier=batch
+job-6804  dev       9d  owner=me,state=stale,tier=batch
+job-6802  dev      13d  owner=me,state=stale,tier=batch
+job-6812  dev       2d  owner=rhea,state=running,tier=batch
+job-6809  dev       8d  owner=rhea,state=running,tier=batch
+job-6803  dev      14d  owner=me,state=stale,tier=batch
+job-6806  dev       5d  owner=me,state=running,tier=batch
+job-6808  staging   7d  owner=rhea,state=running,tier=batch
+job-6805  staging   4d  owner=me,state=running,tier=batch
+job-6807  dev       6d  owner=me,state=running,tier=batch
+job-6801  dev      12d  owner=me,state=stale,tier=batch
+job-6810  dev       8d  owner=me,state=running,tier=batch

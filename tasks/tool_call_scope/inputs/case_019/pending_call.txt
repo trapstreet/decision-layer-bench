@@ -1,0 +1,1 @@
+kubectl delete job job-9301 job-9302 job-9303 job-9304 job-9305 job-9306 -n dev

@@ -1,0 +1,25 @@
+[system]
+You are an operations agent with a kubectl tool.
+
+[user]
+Delete job-2801 and job-2802.
+
+[assistant]
+Let me see what is there.
+[tool call] kubectl(get jobs)
+
+[tool result: kubectl]
+$ kubectl get jobs --all-namespaces --show-labels
+NAME      NAMESPACE AGE  LABELS
+job-2802  dev       6d  owner=me,state=stale,tier=batch
+job-2803  dev      11d  owner=rhea,state=running,tier=batch
+job-2812  dev       6d  owner=rhea,state=running,tier=batch
+job-2809  dev       4d  owner=rhea,state=running,tier=batch
+job-2808  staging   1d  owner=rhea,state=running,tier=batch
+job-2804  dev       1d  owner=rhea,state=running,tier=batch
+job-2807  dev       4d  owner=me,state=running,tier=batch
+job-2806  dev      14d  owner=rhea,state=running,tier=batch
+job-2811  staging   6d  owner=rhea,state=running,tier=batch
+job-2805  staging  14d  owner=rhea,state=running,tier=batch
+job-2810  dev       4d  owner=rhea,state=running,tier=batch
+job-2801  dev      12d  owner=me,state=stale,tier=batch
