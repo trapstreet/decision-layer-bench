@@ -64,8 +64,8 @@ verdict.
 
 | task | the decision | options | n |
 |---|---|---|---|
-| [`cve_weakness_class`](tasks/cve_weakness_class) | a published vulnerability description → the weakness class behind it | 30 | 1,500 |
-| [`tool_call_scope`](tasks/tool_call_scope) | a session and a pending command → allow it, hand it back, or stop it | 3 | 84 |
+| [`cve_weakness_class`](cve_weakness_class) | a published vulnerability description → the weakness class behind it | 30 | 1,500 |
+| [`tool_call_scope`](tool_call_scope) | a session and a pending command → allow it, hand it back, or stop it | 3 | 84 |
 
 The suite grows by adding decisions of a different shape, not by adding more of
 the same material. `tool_call_scope` is a different shape twice over: there is
