@@ -26,14 +26,15 @@ task puts one realistic decision under that claim.
   the taxonomy up in context, so it has to arrive already knowing what "Use
   After Free" means.
 - **Is it cheaper per unit of correct work?** Not total spend — cost per correct
-  answer. An arm that is cheap and wrong is not cheap.
+  answer, and latency per case. An arm that is cheap and wrong is not cheap.
+  Latency is measured for every arm; dollars only where something was billed.
 - **When it misses, how does it miss?** CWE is a hierarchy, so a miss is either
   an abstraction-level slip — a parent or child of the recorded class — or an
   unrelated class. Two arms on the same score can differ sharply here, and the
   run report splits them.
 
 Accuracy is not the column that separates the strongest arms, and this benchmark
-does not pretend otherwise. Cost per correct answer and error structure are.
+does not pretend otherwise. Efficiency and error structure are.
 
 ## The set
 
@@ -70,34 +71,55 @@ the run report publishes what share of each arm's errors were parent-or-child
 rather than unrelated, so an abstraction-level slip and a misread flaw show up
 as different failures.
 
-The run report also carries cost per correct answer, per-class accuracy, and the
-most frequent confusions.
+The run report also carries latency, cost per correct answer where the run was
+priced, per-class accuracy, and the most frequent confusions.
 
 ## Baselines
 
 Trivial predictors, run through this task's own judge over all 1,500 cases
-(2026-09-20):
+(offline probes 2026-09-20; the board arm 2026-09-21):
 
 | | accuracy |
 |---|---|
-| **lexical match of description to class name** | **0.541** |
+| **lexical match to class name, per case** — the `word overlap · no model` arm | **0.478** |
+| lexical match to class name, fitted over the whole set | 0.541 |
 | uniform random over the 30 options | 0.033 |
 | always the most frequent class in the wild | 0.033 |
 | output with no identifier from the option list | 0.000 |
 
-The lexical row is the number that matters. 392 of the 1,500 descriptions
+Two lexical rows, because the same strategy is worth different amounts under
+different constraints, and only one of them is a bar a submission can be held
+to. The 0.541 probe fits TF-IDF across all 1,500 descriptions at once, so it
+carries corpus statistics no solution can reach — an arm sees one case and
+cannot fit IDF over the other 1,499. The arm on the board scores the same idea
+per case, with no corpus statistics, and reaches 0.478.
+
+**0.478 is the floor a submission has to clear**, because it is the one
+measured under the constraints every arm actually runs under. 0.541 stays
+published beside it as the ceiling of the same strategy when it is handed the
+whole set — an upper bound on what reading no meaning can buy, not a bar any
+single-case solution could be held to.
+
+The lexical rows are the ones that matter at all. 392 of the 1,500 descriptions
 contain the recorded class's own name somewhere in the prose — "out-of-bounds
 write", "SQL injection" — and a string matcher collects those for free. That
 is deliberate: it is how these descriptions are written, and cropping around it
-would make the task an artefact. It does mean **0.541 is the floor a
-submission has to clear** to have demonstrated anything.
+would make the task an artefact.
 
 Accuracy is not expected to separate the strongest arms. Probing across model
 tiers while designing this, the spread from a 1B open model to the best arm was
 about 52 points, but the top three landed within two points of each other —
-closer than 1,500 cases can resolve. What separates arms at that level is cost
-per correct answer, where the measured spread was two orders of magnitude, and
-error structure. The run report publishes both.
+closer than 1,500 cases can resolve. What separates arms at that level is
+efficiency and error structure, and the board bears that out: the top three sit
+inside six thousandths of each other on accuracy and between 1.96 and 3.65
+seconds per case.
+
+Efficiency is reported two ways, and only one of them is populated for every
+arm. **Latency is measured for all of them.** **Dollar cost is reported only
+where the run was actually billed**, or where the arm reported its own spend —
+several arms here run against a free hosted demo that takes no API key, and
+their cost cells are left empty rather than filled with a figure nobody
+measured. Read the empty cells as unpriced, not as free.
 
 ## Running it
 

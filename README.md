@@ -33,7 +33,9 @@ demonstrations. The model has to arrive already knowing what the labels mean.
 
 **Cost per correct answer.** Not total spend. An arm that is cheap and wrong is
 not cheap, and the whole argument for the category is an efficiency argument, so
-efficiency is the column.
+efficiency is the column. It is reported as latency for every arm and in dollars
+for the arms whose runs were priced — an arm served from a free public demo is
+unpriced, and that cell is left empty rather than guessed at.
 
 **Error structure.** Two arms on the same score can fail differently — a slip to
 a neighbouring abstraction level is a different production problem from a
@@ -41,8 +43,9 @@ misread. The run report splits them.
 
 Accuracy is not expected to separate the strongest arms, and nothing here
 pretends otherwise. On the design probe the top three landed inside two points
-of each other while the full range across model tiers spanned about fifty. Cost
-and error structure are what separate arms once accuracy saturates.
+of each other while the full range across model tiers spanned about fifty, and
+the board bore that out. Efficiency and error structure are what separate arms
+once accuracy saturates.
 
 ## What the product boards measure
 
