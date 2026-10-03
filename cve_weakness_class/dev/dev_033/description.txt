@@ -1,0 +1,1 @@
+NLTK versions before 3.10.3 contain a quadratic CPU exhaustion vulnerability in XMLCorpusView._read_xml_fragment() that rescans accumulated XML fragments on every 1 KiB block read. Attackers can provide malformed XML corpus files to cause severe CPU consumption and denial of service through affected readers like BNCCorpusReader.

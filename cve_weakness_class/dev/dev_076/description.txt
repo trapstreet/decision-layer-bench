@@ -1,0 +1,1 @@
+NVIDIA TensorRT-LLM for Linux contains a vulnerability in the multimodal media fetching functions, where a network-accessible attacker could cause server-side request forgery. A successful exploit of this vulnerability might lead to denial of service and information disclosure.

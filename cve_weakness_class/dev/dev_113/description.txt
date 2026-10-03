@@ -1,0 +1,1 @@
+A Content Security Policy bypass was addressed with improved enforcement in AudioWorklet contexts. This issue is fixed in Safari 26.5, iOS 18.7.9 and iPadOS 18.7.9, iOS 26.5 and iPadOS 26.5, macOS Tahoe 26.5. Processing maliciously crafted web content may bypass Content Security Policy.

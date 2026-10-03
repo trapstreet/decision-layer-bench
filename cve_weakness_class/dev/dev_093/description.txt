@@ -1,0 +1,1 @@
+Malicious calendar invitations could use file URI attachments to launch local or network-hosted executables on Windows, bypassing Thunderbird's normal executable attachment protections. With the new invitation display enabled, the attachment could also appear under a misleading filename. This vulnerability was fixed in Thunderbird 154 and Thunderbird 153.2.

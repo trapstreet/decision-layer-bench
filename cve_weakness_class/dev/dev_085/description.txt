@@ -1,0 +1,1 @@
+Heap-based buffer overflow in Windows VOLSNAP.SYS allows an authorized attacker to execute code locally.

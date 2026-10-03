@@ -1,0 +1,1 @@
+Cross-Site request forgery (CSRF) vulnerability in TMT Machine Industry and Trade Ltd. Co. Talassoft Industrial Management Software allows Cross Site Request Forgery. This issue affects Talassoft Industrial Management Software: from V.4 before V.16.

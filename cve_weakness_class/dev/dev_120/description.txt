@@ -1,0 +1,1 @@
+Stack-based buffer overflow in Windows TCP/IP allows an unauthorized attacker to execute code over a network.

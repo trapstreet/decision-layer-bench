@@ -1,0 +1,1 @@
+Nodemailer before 8.0.9 fails to enforce disableFileAccess and disableUrlAccess options during message normalization in jsonTransport. Attackers can read local files or fetch URLs by supplying path or href values in message content fields, bypassing intended access controls.

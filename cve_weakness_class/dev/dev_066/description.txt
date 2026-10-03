@@ -1,0 +1,1 @@
+Use After Free vulnerability has been found in "io.c" program file of gawk (do_getline_redir() routine). This issue may lead to a crash. It affects gawk in versions 5.4.0 and below.

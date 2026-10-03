@@ -1,0 +1,1 @@
+The Subscriptions for WooCommerce WordPress plugin before 2.0.1 does not verify that the requester owns the subscription being viewed before rendering its details, allowing any authenticated customer to read another customer's subscription information (the subscribed product, status, and dates) by supplying that subscription's ID.

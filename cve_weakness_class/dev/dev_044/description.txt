@@ -1,0 +1,1 @@
+Joomla Extension - regularlabs.com - Zipslip in GeoIP extension - Geo IP database update archives have been broadly extracted without path validation, leading to unsafe file extractions.

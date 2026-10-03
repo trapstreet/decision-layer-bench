@@ -1,0 +1,1 @@
+In JetBrains IntelliJ IDEA before 2026.2 arbitrary code injection was possible via UI Designer form files

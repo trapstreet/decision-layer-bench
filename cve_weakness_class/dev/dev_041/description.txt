@@ -1,0 +1,1 @@
+Improper neutralization of special elements used in an OS command ('OS command injection') vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Software allows OS Command Injection. This issue affects Pardus Software: before 1.0.5.

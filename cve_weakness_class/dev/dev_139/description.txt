@@ -1,0 +1,1 @@
+Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in TMT Machine Industry and Trade Ltd. Co. Talassoft Industrial Management Software allows SQL Injection. This issue affects Talassoft Industrial Management Software: from V.4 before V.16.

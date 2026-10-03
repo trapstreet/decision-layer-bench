@@ -1,0 +1,1 @@
+A SQL injection vulnerability has been identified in PHP Jabbers - Car Rental Script . Improper neutralization of input provided by user into parameters responsible for sorting functions allows an unauthenticated attacker to perform SQL Injection attacks. This issue was fixed in version 4.1.

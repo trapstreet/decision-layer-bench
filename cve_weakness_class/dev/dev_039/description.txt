@@ -1,0 +1,1 @@
+The Booking for Appointments and Events Calendar WordPress plugin before 2.4.7 does not require authentication before processing its pending notification queue, allowing an unauthenticated user to force the dispatch of queued notifications and integration callbacks.

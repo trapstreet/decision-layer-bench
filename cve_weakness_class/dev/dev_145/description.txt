@@ -1,0 +1,1 @@
+An issue in open62541 v.1.5.5 and before allows a remote attacker to cause a denial of service via the NodeManagement type-instantiation logic component

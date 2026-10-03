@@ -1,0 +1,1 @@
+A cross-site request forgery vulnerability in the Admin UI of Progress MarkLogic Server before 11.3.6 and 12.0.3 allows a remote attacker who lures an authenticated administrator to a malicious web page to perform administrative actions on the administrator's behalf. This can result in unauthorized changes to security configuration.

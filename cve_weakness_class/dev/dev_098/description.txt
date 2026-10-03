@@ -1,0 +1,1 @@
+The vulnerability, if exploited, could allow an authenticated miscreant with "DNA Authority - Operator" privilege to tamper with serialized data, potentially resulting in code execution during deserialization under the privilege of Enterprise SCADA security group "DNA Apps".

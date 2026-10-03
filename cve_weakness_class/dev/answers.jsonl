@@ -1,0 +1,150 @@
+{"id": "dev_001", "cve": "CVE-2026-76137", "cwe": "CWE-306", "cwe_name": "Missing Authentication for Critical Function", "source": "vultures@jpcert.or.jp", "published": "2026-08-21T03:16:39.760"}
+{"id": "dev_002", "cve": "CVE-2026-12195", "cwe": "CWE-78", "cwe_name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')", "source": "ab69c47f-b95e-4bf2-b2d9-4b1fd1b24b4a", "published": "2026-07-04T12:16:53.300"}
+{"id": "dev_003", "cve": "CVE-2026-20482", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "source": "security@mediatek.com", "published": "2026-08-03T03:16:43.317"}
+{"id": "dev_004", "cve": "CVE-2026-67871", "cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-06T00:16:54.160"}
+{"id": "dev_005", "cve": "CVE-2026-73899", "cwe": "CWE-284", "cwe_name": "Improper Access Control", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-18T21:18:22.543"}
+{"id": "dev_006", "cve": "CVE-2026-84350", "cwe": "CWE-416", "cwe_name": "Use After Free", "source": "chrome-cve-admin@google.com", "published": "2026-09-02T00:18:28.873"}
+{"id": "dev_007", "cve": "CVE-2026-56188", "cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "source": "secure@microsoft.com", "published": "2026-07-14T18:18:28.800"}
+{"id": "dev_008", "cve": "CVE-2026-17663", "cwe": "CWE-20", "cwe_name": "Improper Input Validation", "source": "chrome-cve-admin@google.com", "published": "2026-07-30T01:16:28.303"}
+{"id": "dev_009", "cve": "CVE-2025-15028", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "source": "security@wordfence.com", "published": "2026-08-06T12:16:26.523"}
+{"id": "dev_010", "cve": "CVE-2026-16030", "cwe": "CWE-287", "cwe_name": "Improper Authentication", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-07T06:16:55.833"}
+{"id": "dev_011", "cve": "CVE-2026-14898", "cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "source": "8f4f43ab-ba69-4d92-aa1d-d772184d6fb7", "published": "2026-07-06T20:16:30.580"}
+{"id": "dev_012", "cve": "CVE-2026-54156", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "source": "security-advisories@github.com", "published": "2026-09-14T17:17:46.927"}
+{"id": "dev_013", "cve": "CVE-2026-69100", "cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "source": "disclosure@vulncheck.com", "published": "2026-08-04T16:16:28.340"}
+{"id": "dev_014", "cve": "CVE-2026-60992", "cwe": "CWE-284", "cwe_name": "Improper Access Control", "source": "nvd@nist.gov", "published": "2026-08-18T21:16:50.797"}
+{"id": "dev_015", "cve": "CVE-2026-76650", "cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "source": "f23511db-6c3e-4e32-a477-6aa17d310630", "published": "2026-08-28T22:16:53.380"}
+{"id": "dev_016", "cve": "CVE-2026-69555", "cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "source": "secure@microsoft.com", "published": "2026-08-20T22:18:00.477"}
+{"id": "dev_017", "cve": "CVE-2026-74845", "cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "source": "twcert@cert.org.tw", "published": "2026-08-17T10:16:42.403"}
+{"id": "dev_018", "cve": "CVE-2026-53335", "cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "source": "nvd@nist.gov", "published": "2026-07-01T14:16:41.460"}
+{"id": "dev_019", "cve": "CVE-2026-77892", "cwe": "CWE-693", "cwe_name": "Protection Mechanism Failure", "source": "secure@microsoft.com", "published": "2026-09-08T18:20:39.030"}
+{"id": "dev_020", "cve": "CVE-2026-81919", "cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "source": "ff5b8ace-8b95-4078-9743-eac1ca5451de", "published": "2026-09-15T19:17:41.200"}
+{"id": "dev_021", "cve": "CVE-2026-13167", "cwe": "CWE-862", "cwe_name": "Missing Authorization", "source": "security@wordfence.com", "published": "2026-08-16T05:16:46.077"}
+{"id": "dev_022", "cve": "CVE-2026-60122", "cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "source": "disclosure@vulncheck.com", "published": "2026-07-23T20:17:09.207"}
+{"id": "dev_023", "cve": "CVE-2026-12583", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-14T06:17:05.900"}
+{"id": "dev_024", "cve": "CVE-2026-47013", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T22:17:06.857"}
+{"id": "dev_025", "cve": "CVE-2026-7438", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "source": "security@wordfence.com", "published": "2026-09-11T04:17:55.657"}
+{"id": "dev_026", "cve": "CVE-2026-17018", "cwe": "CWE-639", "cwe_name": "Authorization Bypass Through User-Controlled Key", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-10T07:16:48.813"}
+{"id": "dev_027", "cve": "CVE-2026-14279", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "source": "security@wordfence.com", "published": "2026-08-15T07:16:19.120"}
+{"id": "dev_028", "cve": "CVE-2026-71988", "cwe": "CWE-78", "cwe_name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')", "source": "disclosure@vulncheck.com", "published": "2026-08-09T00:16:47.780"}
+{"id": "dev_029", "cve": "CVE-2026-69230", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "source": "psirt@esri.com", "published": "2026-08-21T21:17:03.670"}
+{"id": "dev_030", "cve": "CVE-2026-61108", "cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T22:18:42.037"}
+{"id": "dev_031", "cve": "CVE-2026-54616", "cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "source": "security-advisories@github.com", "published": "2026-08-20T17:18:18.090"}
+{"id": "dev_032", "cve": "CVE-2026-42219", "cwe": "CWE-22", "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')", "source": "security-advisories@github.com", "published": "2026-07-10T22:16:41.550"}
+{"id": "dev_033", "cve": "CVE-2026-81723", "cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "source": "disclosure@vulncheck.com", "published": "2026-08-27T17:21:02.957"}
+{"id": "dev_034", "cve": "CVE-2026-16993", "cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-05T07:16:37.097"}
+{"id": "dev_035", "cve": "CVE-2025-67406", "cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-29T22:16:51.393"}
+{"id": "dev_036", "cve": "CVE-2026-56391", "cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "source": "cvd@cert.pl", "published": "2026-07-24T09:16:25.003"}
+{"id": "dev_037", "cve": "CVE-2026-14558", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-28T08:16:40.327"}
+{"id": "dev_038", "cve": "CVE-2026-84270", "cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "source": "secalert@redhat.com", "published": "2026-09-01T16:17:37.817"}
+{"id": "dev_039", "cve": "CVE-2026-14216", "cwe": "CWE-287", "cwe_name": "Improper Authentication", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-26T06:16:24.910"}
+{"id": "dev_040", "cve": "CVE-2026-16254", "cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "source": "secalert@redhat.com", "published": "2026-07-20T12:17:56.373"}
+{"id": "dev_041", "cve": "CVE-2026-7863", "cwe": "CWE-78", "cwe_name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')", "source": "iletisim@usom.gov.tr", "published": "2026-09-11T16:17:47.490"}
+{"id": "dev_042", "cve": "CVE-2026-56920", "cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-15T19:17:26.730"}
+{"id": "dev_043", "cve": "CVE-2026-69786", "cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-09-08T18:19:50.150"}
+{"id": "dev_044", "cve": "CVE-2026-65431", "cwe": "CWE-22", "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')", "source": "security@joomla.org", "published": "2026-07-23T10:16:52.723"}
+{"id": "dev_045", "cve": "CVE-2026-41424", "cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "source": "security-advisories@github.com", "published": "2026-08-19T17:18:47.837"}
+{"id": "dev_046", "cve": "CVE-2026-71082", "cwe": "CWE-284", "cwe_name": "Improper Access Control", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-18T21:18:08.407"}
+{"id": "dev_047", "cve": "CVE-2026-63749", "cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "source": "disclosure@vulncheck.com", "published": "2026-07-20T12:19:44.590"}
+{"id": "dev_048", "cve": "CVE-2026-70441", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-05T18:17:13.930"}
+{"id": "dev_049", "cve": "CVE-2026-84554", "cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-14T21:17:31.557"}
+{"id": "dev_050", "cve": "CVE-2026-12409", "cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "source": "security@wordfence.com", "published": "2026-07-16T04:17:14.213"}
+{"id": "dev_051", "cve": "CVE-2026-24911", "cwe": "CWE-121", "cwe_name": "Stack-based Buffer Overflow", "source": "secure@intel.com", "published": "2026-08-11T17:17:56.330"}
+{"id": "dev_052", "cve": "CVE-2026-7326", "cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "source": "security@progress.com", "published": "2026-08-05T16:17:08.930"}
+{"id": "dev_053", "cve": "CVE-2026-70953", "cwe": "CWE-306", "cwe_name": "Missing Authentication for Critical Function", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-18T21:17:53.607"}
+{"id": "dev_054", "cve": "CVE-2026-64815", "cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "source": "cve@jetbrains.com", "published": "2026-07-23T12:18:37.120"}
+{"id": "dev_055", "cve": "CVE-2026-15379", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-17T08:16:57.773"}
+{"id": "dev_056", "cve": "CVE-2026-84123", "cwe": "CWE-416", "cwe_name": "Use After Free", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-01T13:20:06.160"}
+{"id": "dev_057", "cve": "CVE-2026-17272", "cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "source": "psirt@us.ibm.com", "published": "2026-08-13T21:17:42.687"}
+{"id": "dev_058", "cve": "CVE-2026-15291", "cwe": "CWE-862", "cwe_name": "Missing Authorization", "source": "security@wordfence.com", "published": "2026-07-10T05:16:32.430"}
+{"id": "dev_059", "cve": "CVE-2026-86731", "cwe": "CWE-862", "cwe_name": "Missing Authorization", "source": "disclosure@vulncheck.com", "published": "2026-09-08T16:18:35.187"}
+{"id": "dev_060", "cve": "CVE-2026-72643", "cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "source": "security@elastic.co", "published": "2026-08-13T20:17:24.807"}
+{"id": "dev_061", "cve": "CVE-2026-73869", "cwe": "CWE-284", "cwe_name": "Improper Access Control", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-18T21:18:19.103"}
+{"id": "dev_062", "cve": "CVE-2026-55026", "cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "source": "secure@microsoft.com", "published": "2026-07-14T18:18:13.330"}
+{"id": "dev_063", "cve": "CVE-2026-0171", "cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-15T19:17:14.057"}
+{"id": "dev_064", "cve": "CVE-2026-87461", "cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "source": "chrome-cve-admin@google.com", "published": "2026-09-09T01:17:02.573"}
+{"id": "dev_065", "cve": "CVE-2026-14553", "cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-05T07:16:34.787"}
+{"id": "dev_066", "cve": "CVE-2026-40467", "cwe": "CWE-416", "cwe_name": "Use After Free", "source": "cvd@cert.pl", "published": "2026-07-13T13:16:36.770"}
+{"id": "dev_067", "cve": "CVE-2026-11810", "cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "source": "vulnerabilities@zephyrproject.org", "published": "2026-08-10T21:17:19.223"}
+{"id": "dev_068", "cve": "CVE-2026-91771", "cwe": "CWE-22", "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')", "source": "disclosure@vulncheck.com", "published": "2026-09-15T02:16:49.680"}
+{"id": "dev_069", "cve": "CVE-2026-82845", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-12T06:16:26.043"}
+{"id": "dev_070", "cve": "CVE-2026-82258", "cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "source": "disclosure@vulncheck.com", "published": "2026-08-28T12:16:38.770"}
+{"id": "dev_071", "cve": "CVE-2026-19956", "cwe": "CWE-918", "cwe_name": "Server-Side Request Forgery (SSRF)", "source": "cna@vuldb.com", "published": "2026-08-16T21:16:37.913"}
+{"id": "dev_072", "cve": "CVE-2026-83440", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-15T20:18:52.637"}
+{"id": "dev_073", "cve": "CVE-2026-18473", "cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-09T06:19:05.773"}
+{"id": "dev_074", "cve": "CVE-2026-16614", "cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "source": "security@wordfence.com", "published": "2026-08-01T09:17:00.833"}
+{"id": "dev_075", "cve": "CVE-2026-71390", "cwe": "CWE-20", "cwe_name": "Improper Input Validation", "source": "psirt@adobe.com", "published": "2026-08-11T17:19:14.087"}
+{"id": "dev_076", "cve": "CVE-2026-24234", "cwe": "CWE-918", "cwe_name": "Server-Side Request Forgery (SSRF)", "source": "psirt@nvidia.com", "published": "2026-07-14T21:16:44.293"}
+{"id": "dev_077", "cve": "CVE-2026-60335", "cwe": "CWE-306", "cwe_name": "Missing Authentication for Critical Function", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T22:17:36.587"}
+{"id": "dev_078", "cve": "CVE-2026-60357", "cwe": "CWE-287", "cwe_name": "Improper Authentication", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T22:17:38.940"}
+{"id": "dev_079", "cve": "CVE-2026-21066", "cwe": "CWE-20", "cwe_name": "Improper Input Validation", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-10T09:17:19.870"}
+{"id": "dev_080", "cve": "CVE-2026-44180", "cwe": "CWE-20", "cwe_name": "Improper Input Validation", "source": "security-advisories@github.com", "published": "2026-07-16T22:17:02.237"}
+{"id": "dev_081", "cve": "CVE-2026-18671", "cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "source": "psirt@us.ibm.com", "published": "2026-08-13T21:17:45.400"}
+{"id": "dev_082", "cve": "CVE-2026-56455", "cwe": "CWE-121", "cwe_name": "Stack-based Buffer Overflow", "source": "psirt@hcl.com", "published": "2026-07-16T14:16:54.797"}
+{"id": "dev_083", "cve": "CVE-2026-47424", "cwe": "CWE-693", "cwe_name": "Protection Mechanism Failure", "source": "security-advisories@github.com", "published": "2026-09-15T10:17:05.077"}
+{"id": "dev_084", "cve": "CVE-2026-17982", "cwe": "CWE-20", "cwe_name": "Improper Input Validation", "source": "chrome-cve-admin@google.com", "published": "2026-07-30T01:17:02.793"}
+{"id": "dev_085", "cve": "CVE-2026-69426", "cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-09-08T18:19:06.050"}
+{"id": "dev_086", "cve": "CVE-2026-90778", "cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "source": "disclosure@vulncheck.com", "published": "2026-09-13T12:17:16.837"}
+{"id": "dev_087", "cve": "CVE-2026-73432", "cwe": "CWE-918", "cwe_name": "Server-Side Request Forgery (SSRF)", "source": "5a6e4751-2f3f-4070-9419-94fb35b644e8", "published": "2026-08-12T15:18:33.617"}
+{"id": "dev_088", "cve": "CVE-2026-57677", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "source": "audit@patchstack.com", "published": "2026-07-02T12:17:38.340"}
+{"id": "dev_089", "cve": "CVE-2026-55479", "cwe": "CWE-863", "cwe_name": "Incorrect Authorization", "source": "security-advisories@github.com", "published": "2026-07-10T20:16:47.463"}
+{"id": "dev_090", "cve": "CVE-2026-72522", "cwe": "CWE-125", "cwe_name": "Out-of-bounds Read", "source": "cve@mitre.org", "published": "2026-08-10T04:16:50.910"}
+{"id": "dev_091", "cve": "CVE-2026-15055", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "source": "91579145-5d7b-4cc5-b925-a0262ff19630", "published": "2026-08-03T01:16:43.157"}
+{"id": "dev_092", "cve": "CVE-2026-54132", "cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-07-14T17:17:05.250"}
+{"id": "dev_093", "cve": "CVE-2026-84637", "cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-01T22:17:19.597"}
+{"id": "dev_094", "cve": "CVE-2026-77914", "cwe": "CWE-22", "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')", "source": "disclosure@vulncheck.com", "published": "2026-08-24T17:18:18.260"}
+{"id": "dev_095", "cve": "CVE-2026-72539", "cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "source": "309f9ea4-e3e9-4c6c-b79d-e8eb01244f2c", "published": "2026-08-11T12:17:39.220"}
+{"id": "dev_096", "cve": "CVE-2026-3418", "cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "source": "ed10eef1-636d-4fbe-9993-6890dfa878f8", "published": "2026-08-06T22:17:03.997"}
+{"id": "dev_097", "cve": "CVE-2026-30072", "cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-27T17:17:52.320"}
+{"id": "dev_098", "cve": "CVE-2025-7639", "cwe": "CWE-502", "cwe_name": "Deserialization of Untrusted Data", "source": "ics-cert@hq.dhs.gov", "published": "2026-08-14T19:17:13.380"}
+{"id": "dev_099", "cve": "CVE-2026-16834", "cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "source": "psirt@us.ibm.com", "published": "2026-08-19T20:17:04.270"}
+{"id": "dev_100", "cve": "CVE-2026-17621", "cwe": "CWE-22", "cwe_name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')", "source": "psirt@us.ibm.com", "published": "2026-09-04T17:16:55.063"}
+{"id": "dev_101", "cve": "CVE-2026-16600", "cwe": "CWE-918", "cwe_name": "Server-Side Request Forgery (SSRF)", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-29T06:17:05.443"}
+{"id": "dev_102", "cve": "CVE-2026-34152", "cwe": "CWE-78", "cwe_name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')", "source": "security-advisories@github.com", "published": "2026-07-07T04:17:50.043"}
+{"id": "dev_103", "cve": "CVE-2026-63526", "cwe": "CWE-121", "cwe_name": "Stack-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-08-11T17:18:49.390"}
+{"id": "dev_104", "cve": "CVE-2026-86506", "cwe": "CWE-306", "cwe_name": "Missing Authentication for Critical Function", "source": "cve@jetbrains.com", "published": "2026-09-07T17:17:29.130"}
+{"id": "dev_105", "cve": "CVE-2026-71937", "cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "source": "disclosure@vulncheck.com", "published": "2026-08-24T18:17:18.890"}
+{"id": "dev_106", "cve": "CVE-2026-15049", "cwe": "CWE-434", "cwe_name": "Unrestricted Upload of File with Dangerous Type", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-20T06:16:49.710"}
+{"id": "dev_107", "cve": "CVE-2026-87816", "cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "source": "disclosure@vulncheck.com", "published": "2026-09-09T12:17:16.683"}
+{"id": "dev_108", "cve": "CVE-2026-18780", "cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "source": "iletisim@usom.gov.tr", "published": "2026-09-01T15:17:13.200"}
+{"id": "dev_109", "cve": "CVE-2026-13423", "cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-29T07:16:41.250"}
+{"id": "dev_110", "cve": "CVE-2026-62210", "cwe": "CWE-770", "cwe_name": "Allocation of Resources Without Limits or Throttling", "source": "disclosure@vulncheck.com", "published": "2026-07-17T02:18:07.470"}
+{"id": "dev_111", "cve": "CVE-2026-64708", "cwe": "CWE-693", "cwe_name": "Protection Mechanism Failure", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-27T21:17:10.170"}
+{"id": "dev_112", "cve": "CVE-2026-22752", "cwe": "CWE-287", "cwe_name": "Improper Authentication", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-16T10:16:24.767"}
+{"id": "dev_113", "cve": "CVE-2026-43670", "cwe": "CWE-693", "cwe_name": "Protection Mechanism Failure", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-25T20:16:55.600"}
+{"id": "dev_114", "cve": "CVE-2026-56135", "cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-24T21:17:42.240"}
+{"id": "dev_115", "cve": "CVE-2026-15389", "cwe": "CWE-639", "cwe_name": "Authorization Bypass Through User-Controlled Key", "source": "cve-coordination@incibe.es", "published": "2026-07-14T11:16:48.053"}
+{"id": "dev_116", "cve": "CVE-2026-78541", "cwe": "CWE-78", "cwe_name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')", "source": "f23511db-6c3e-4e32-a477-6aa17d310630", "published": "2026-08-24T19:17:04.553"}
+{"id": "dev_117", "cve": "CVE-2026-54897", "cwe": "CWE-416", "cwe_name": "Use After Free", "source": "security-advisories@github.com", "published": "2026-07-01T00:16:32.983"}
+{"id": "dev_118", "cve": "CVE-2026-86096", "cwe": "CWE-416", "cwe_name": "Use After Free", "source": "disclosure@vulncheck.com", "published": "2026-09-04T23:18:03.377"}
+{"id": "dev_119", "cve": "CVE-2025-67649", "cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "source": "cvd@cert.pl", "published": "2026-07-31T12:16:48.107"}
+{"id": "dev_120", "cve": "CVE-2026-62792", "cwe": "CWE-121", "cwe_name": "Stack-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-08-11T17:18:32.970"}
+{"id": "dev_121", "cve": "CVE-2026-62781", "cwe": "CWE-122", "cwe_name": "Heap-based Buffer Overflow", "source": "secure@microsoft.com", "published": "2026-08-11T17:18:31.413"}
+{"id": "dev_122", "cve": "CVE-2026-67445", "cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "source": "security-advisories@github.com", "published": "2026-08-20T21:17:07.110"}
+{"id": "dev_123", "cve": "CVE-2026-42391", "cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "source": "security@open-xchange.com", "published": "2026-08-28T12:16:29.503"}
+{"id": "dev_124", "cve": "CVE-2026-67340", "cwe": "CWE-94", "cwe_name": "Improper Control of Generation of Code ('Code Injection')", "source": "disclosure@vulncheck.com", "published": "2026-08-01T13:17:05.127"}
+{"id": "dev_125", "cve": "CVE-2026-86883", "cwe": "CWE-200", "cwe_name": "Exposure of Sensitive Information to an Unauthorized Actor", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-14T21:17:39.230"}
+{"id": "dev_126", "cve": "CVE-2026-15015", "cwe": "CWE-862", "cwe_name": "Missing Authorization", "source": "security@wordfence.com", "published": "2026-07-23T10:16:50.047"}
+{"id": "dev_127", "cve": "CVE-2026-16408", "cwe": "CWE-190", "cwe_name": "Integer Overflow or Wraparound", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T13:17:16.220"}
+{"id": "dev_128", "cve": "CVE-2026-85670", "cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "source": "disclosure@vulncheck.com", "published": "2026-09-04T15:17:44.993"}
+{"id": "dev_129", "cve": "CVE-2026-15214", "cwe": "CWE-639", "cwe_name": "Authorization Bypass Through User-Controlled Key", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-07T06:16:55.117"}
+{"id": "dev_130", "cve": "CVE-2026-44100", "cwe": "CWE-306", "cwe_name": "Missing Authentication for Critical Function", "source": "info@cert.vde.com", "published": "2026-07-30T07:16:58.220"}
+{"id": "dev_131", "cve": "CVE-2026-28668", "cwe": "CWE-693", "cwe_name": "Protection Mechanism Failure", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-08T19:17:56.980"}
+{"id": "dev_132", "cve": "CVE-2026-7208", "cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "source": "disclosure@vulncheck.com", "published": "2026-09-14T14:17:12.120"}
+{"id": "dev_133", "cve": "CVE-2026-47276", "cwe": "CWE-476", "cwe_name": "NULL Pointer Dereference", "source": "security-advisories@github.com", "published": "2026-07-20T17:17:10.260"}
+{"id": "dev_134", "cve": "CVE-2026-84025", "cwe": "CWE-639", "cwe_name": "Authorization Bypass Through User-Controlled Key", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-09-12T06:16:26.700"}
+{"id": "dev_135", "cve": "CVE-2026-12196", "cwe": "CWE-287", "cwe_name": "Improper Authentication", "source": "ab69c47f-b95e-4bf2-b2d9-4b1fd1b24b4a", "published": "2026-07-04T12:16:53.600"}
+{"id": "dev_136", "cve": "CVE-2026-63453", "cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T19:17:12.357"}
+{"id": "dev_137", "cve": "CVE-2026-89266", "cwe": "CWE-787", "cwe_name": "Out-of-bounds Write", "source": "disclosure@vulncheck.com", "published": "2026-09-12T00:17:06.440"}
+{"id": "dev_138", "cve": "CVE-2026-72552", "cwe": "CWE-918", "cwe_name": "Server-Side Request Forgery (SSRF)", "source": "309f9ea4-e3e9-4c6c-b79d-e8eb01244f2c", "published": "2026-08-11T12:17:40.860"}
+{"id": "dev_139", "cve": "CVE-2026-18630", "cwe": "CWE-89", "cwe_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')", "source": "iletisim@usom.gov.tr", "published": "2026-09-01T15:17:12.753"}
+{"id": "dev_140", "cve": "CVE-2026-69792", "cwe": "CWE-362", "cwe_name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')", "source": "secure@microsoft.com", "published": "2026-09-08T18:19:50.807"}
+{"id": "dev_141", "cve": "CVE-2026-9812", "cwe": "CWE-639", "cwe_name": "Authorization Bypass Through User-Controlled Key", "source": "responsibledisclosure@mattermost.com", "published": "2026-09-14T11:17:08.393"}
+{"id": "dev_142", "cve": "CVE-2026-82660", "cwe": "CWE-862", "cwe_name": "Missing Authorization", "source": "disclosure@vulncheck.com", "published": "2026-08-31T09:17:03.790"}
+{"id": "dev_143", "cve": "CVE-2026-13725", "cwe": "CWE-79", "cwe_name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-01T07:16:29.560"}
+{"id": "dev_144", "cve": "CVE-2026-64962", "cwe": "CWE-352", "cwe_name": "Cross-Site Request Forgery (CSRF)", "source": "cvd@cert.pl", "published": "2026-08-20T14:17:44.713"}
+{"id": "dev_145", "cve": "CVE-2026-67864", "cwe": "CWE-400", "cwe_name": "Uncontrolled Resource Consumption", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-08-05T22:17:07.680"}
+{"id": "dev_146", "cve": "CVE-2026-50335", "cwe": "CWE-284", "cwe_name": "Improper Access Control", "source": "secure@microsoft.com", "published": "2026-07-14T18:17:32.923"}
+{"id": "dev_147", "cve": "CVE-2026-65897", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "source": "disclosure@vulncheck.com", "published": "2026-07-23T12:18:48.180"}
+{"id": "dev_148", "cve": "CVE-2026-62561", "cwe": "CWE-269", "cwe_name": "Improper Privilege Management", "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0", "published": "2026-07-21T22:19:09.103"}
+{"id": "dev_149", "cve": "CVE-2025-41769", "cwe": "CWE-120", "cwe_name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')", "source": "info@cert.vde.com", "published": "2026-08-12T08:17:11.590"}
+{"id": "dev_150", "cve": "CVE-2026-88047", "cwe": "CWE-121", "cwe_name": "Stack-based Buffer Overflow", "source": "security-advisories@github.com", "published": "2026-09-10T17:17:08.817"}

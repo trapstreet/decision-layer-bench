@@ -1,0 +1,1 @@
+The Newsletters WordPress plugin before 4.15 does not prevent deserialization of untrusted input that is stored through a public form, allowing unauthenticated attackers to inject a PHP object and, via a property-oriented gadget chain bundled with the Newsletters WordPress plugin before 4.15, write arbitrary files and execute code on the server.

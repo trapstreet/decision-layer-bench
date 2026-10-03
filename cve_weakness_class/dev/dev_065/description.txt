@@ -1,0 +1,1 @@
+The zportals WordPress plugin before 6.3.4 does not properly validate uploaded files, trusting the client-supplied content type and preserving the original file extension, allowing any authenticated user (Subscriber or higher) to upload arbitrary PHP files and achieve remote code execution.

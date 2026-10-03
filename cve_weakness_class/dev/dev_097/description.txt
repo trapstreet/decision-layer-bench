@@ -1,0 +1,1 @@
+A NULL pointer dereference in the CDR processing path of free5gc v4.0.1 allows attackers to cause a Denial of Service (DoS) via supplying crafted payload.

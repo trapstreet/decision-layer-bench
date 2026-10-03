@@ -1,0 +1,1 @@
+Frappe is a full-stack web application framework. Prior to 16.19.0 and 15.109.0, path traversal via download_backups was possible due to lack of hardening. This issue is fixed in versions 16.19.0 and 15.109.0.

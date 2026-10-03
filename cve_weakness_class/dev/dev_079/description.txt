@@ -1,0 +1,1 @@
+Improper input validation in libcodec2_sec_flacdec.so prior to SMR Aug-2026 Release 1 allows local attackers to write out-of-bounds memory.

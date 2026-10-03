@@ -1,0 +1,1 @@
+Information leak in Core in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to leak cross-origin data via a crafted Chrome extension. (Chromium security severity: Low)

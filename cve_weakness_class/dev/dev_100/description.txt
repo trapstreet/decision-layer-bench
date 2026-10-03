@@ -1,0 +1,1 @@
+IBM Langflow OSS 1.0.0 through 1.10.2 could allow a remote attacker to traverse directories on the system. An attacker could send a specially crafted URL request containing "dot dot " sequences ( /.. /) to view arbitrary files on the system.

@@ -1,0 +1,1 @@
+In wlan STA FW, there is a possible system becoming unresponsive due to logging. This could lead to remote (proximal/adjacent) denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00486814; Issue ID: MSV-6824.

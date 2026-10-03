@@ -1,0 +1,1 @@
+Official Document Management System developed by 2100 Technology has an Arbitrary File Upload vulnerability, allowing authenticated remote attackers to upload and execute web shell backdoors, thereby enabling arbitrary code execution on the server.

@@ -1,0 +1,1 @@
+Privilege escalation due to use-after-free in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 155, Firefox ESR 153.2, Thunderbird 155, and Thunderbird 153.2.

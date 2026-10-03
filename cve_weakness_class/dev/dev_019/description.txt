@@ -1,0 +1,1 @@
+No cwe for this issue in Windows Boot Manager allows an unauthorized attacker to elevate privileges with a physical attack.

@@ -1,0 +1,1 @@
+The BEAR WordPress plugin before 1.2.2 does not perform ownership checks on several handlers that return product data by a user-supplied identifier, allowing users who are restricted to their own products to read other owners' product information, including protected downloadable file URLs and private product metadata.

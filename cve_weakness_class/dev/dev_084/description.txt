@@ -1,0 +1,1 @@
+Insufficient validation of untrusted input in Cast in Google Chrome prior to 151.0.7922.72 allowed a remote attacker to bypass same origin policy via a crafted HTML page. (Chromium security severity: Low)

@@ -1,0 +1,1 @@
+Missing authentication for critical function vulnerability exists in VOCALOID6. Any process running under the same local user account as a running VOCALOID6 Editor instance may escalate privileges via a local named pipe.

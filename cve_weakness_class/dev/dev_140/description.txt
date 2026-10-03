@@ -1,0 +1,1 @@
+Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K allows an authorized attacker to bypass a security feature locally.

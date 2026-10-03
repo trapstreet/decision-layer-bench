@@ -1,0 +1,1 @@
+Incorrect authorization in Azure Arc allows an unauthorized attacker to elevate privileges over a network.

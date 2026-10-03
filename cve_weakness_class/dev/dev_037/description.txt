@@ -1,0 +1,1 @@
+The User Frontend WordPress plugin before 4.3.10 does not properly validate field type definitions and deserialises user-controlled post metadata when rendering submitted posts, allowing users with Editor-level access and above to inject arbitrary PHP objects, which can lead to remote code execution when a suitable POP chain is present on the site.

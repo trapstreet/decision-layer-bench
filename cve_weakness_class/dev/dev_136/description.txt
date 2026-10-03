@@ -1,0 +1,1 @@
+Buffer overflow vulnerabilities exist in the command line interface of AOS-CX. Successful exploitation of these vulnerabilities could allow a remote high-privileged user to execute arbitrary code as a privileged user on the underlying operating system.

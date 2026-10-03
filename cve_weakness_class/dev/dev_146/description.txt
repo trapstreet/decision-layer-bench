@@ -1,0 +1,1 @@
+Improper access control in Windows Operating Systems allows an authorized attacker to elevate privileges locally.
